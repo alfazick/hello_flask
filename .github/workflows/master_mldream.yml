@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'mldream'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A67D79A92824495EA3CD3CAB988C66FD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2DDB20183D9C49468C08CD578E19A21B }}
