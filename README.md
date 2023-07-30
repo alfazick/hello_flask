@@ -1,6 +1,47 @@
 # hello_flask
 # Tutorial # 1 How to publish project from your own GitHub Repo in Azure
+Prep 0: Clone Repo 
 
+To clone the repository **`https://github.com/alfazick/hello_flask`** into your own GitHub repository, follow these steps:
+
+1. Create an empty repository on your GitHub account. Let's say your new repository is named **`my_hello_flask`**.
+2. Open a terminal or command prompt on your local machine.
+3. Navigate to the directory where you want to clone the repository. You can use the **`cd`** command to change directories.
+4. Run the following command to clone the original repository into your local machine:
+
+```bash
+
+git clone https://github.com/alfazick/hello_flask
+```
+
+1. This will create a new directory named **`hello_flask`** containing the cloned repository.
+2. Now, navigate into the cloned **`hello_flask`** directory:
+
+```bash
+
+cd hello_flask
+```
+
+1. To change the remote URL from the original repository to your new repository, use the following command:
+
+```bash
+
+git remote set-url origin https://github.com/your_username/my_hello_flask.git
+
+```
+
+Replace **`your_username`** with your GitHub username.
+
+1. Now, push the code to your new repository:
+
+```bash
+
+git push origin master
+```
+
+code from **`https://github.com/alfazick/hello_flask`** should now be cloned into your new repository **`https://github.com/your_username/my_hello_flask`**. You can verify this by going to your GitHub account and checking the new repository.
+
+Remember to replace **`your_username`** with your actual GitHub username in step 7.
 Block # 1) App Service Plan and App Service
 
 1. **Create an App Service Plan**
